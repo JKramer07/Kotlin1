@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin1</string>
+    <string name="click_me">click_me</string>
+    <string name="enter_text">Enter text</string>
+    <string name="send">Send</string>
+    <string name="toast_empty">Enter some text</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:text="@string/_1"
+        android:textSize="150sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/light_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_first"
+        android:layout_centerInParent="true"
+        android:hint="@string/enter_text"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="@string/send"
+        android:layout_below="@+id/et_first"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

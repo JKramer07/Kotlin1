@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:padding="16dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_count"-->
+<!--        android:layout_above="@+id/btn_click"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_click"-->
+<!--        android:text="@string/click_me"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <TextView
+        android:text="@string/_2"
+        android:textSize="150sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/light_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_second"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="@string/send"
+        android:layout_below="@+id/et_second"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
